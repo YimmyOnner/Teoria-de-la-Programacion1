@@ -139,6 +139,12 @@ Facilitar la comprensión visual del algoritmo, identificar errores y comunicar 
 
 ---
 
+
+### 🧩 **Prueba de Escritorio del anterior programa**
+<img width="532" height="340" alt="Captura de pantalla 2025-11-05 165933" src="https://github.com/user-attachments/assets/208d7dcb-37c2-4cf6-9b54-f6f10cfd27a1" />
+
+
+
 > 💬 **Conclusión:**
 > PSeInt es una herramienta esencial para aprender a pensar de forma lógica y estructurada.
 > Permite desarrollar la capacidad de **analizar problemas, diseñar algoritmos y comprender la base de la programación estructurada**, antes de pasar a un lenguaje real.
