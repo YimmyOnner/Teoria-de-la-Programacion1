@@ -25,7 +25,7 @@
 | 📂 **Tema** | 🧾 **Descripción del Contenido** |
 |:--------------------------------------------|:-------------------------------------------------------------|
 | [🚀 Programacion por Bloques](./Temas/Programacion_por_Bloques.md) | ¿Qué es la progracion por bloques?, conceptos y ejemplos|
-| [🧩 Características y Elementos de un Algoritmo](../Caracteristicas_y_elementos_de_un_algoritmo.md) | Conceptos esenciales sobre qué es un algoritmo, sus características y los elementos que lo componen. |
+| [🧩 Características y Elementos de un Algoritmo](./Caracteristicas_y_elementos_de_un_algoritmo.md) | Conceptos esenciales sobre qué es un algoritmo, sus características y los elementos que lo componen. |
 | [💾 Tipos de Datos: Variables y Constantes](./Temas/Tipos_de_datos_Variables_y_Constantes.md) | Explicación de los tipos de datos básicos, variables, constantes y sus reglas de declaración. |
 | [🧠 PSeInt: El Inicio del Programador](./Temas/Pseint_El_inicio_del_Programador.md) | Introducción al uso del pseudocódigo y la herramienta PSeInt como base de la programación. |
 | [💻 Lenguaje C](./Temas/Lenguaje_C.md) | Aplicación práctica de los conceptos aprendidos en el lenguaje de programación C. |
