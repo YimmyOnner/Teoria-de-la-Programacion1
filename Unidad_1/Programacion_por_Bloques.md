@@ -46,7 +46,7 @@ La **programación por bloques** es una metodología visual que facilita la comp
 
 <div align="center">
 
-[![📊 Lenguaje C](https://img.shields.io/badge/📊Caracteristicas_y_elementos_de_un_algoritmo_-blue?style=for-the-badge)](./Temas/Caracteristicas_y_elementos_de_un_algoritmo.md)
+[![📊 Caracteristicas y elementos de un algoritmo](https://img.shields.io/badge/📊Caracteristicas_y_elementos_de_un_algoritmo_-blue?style=for-the-badge)](./Temas/Caracteristicas_y_elementos_de_un_algoritmo.md)
 
 </div> 
 
