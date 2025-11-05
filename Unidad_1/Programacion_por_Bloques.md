@@ -22,11 +22,11 @@ La **programación por bloques** es una metodología visual que facilita la comp
 
 ## 2) Rompecabezas / Asociación (Ejemplo visual)
 
-**Descripción:** Actividad de emparejamiento donde se colocan bloques con propiedades (número de patas, rasgos) para identificar correctamente cada animal. Es ideal para introducir variables [4] y atributos en un contexto visual.
+**Descripción:** Actividad de emparejamiento donde se colocan bloques con propiedades (número de patas, rasgos) para identificar correctamente cada animal. Es ideal para introducir variables y atributos en un contexto visual.
 
 **Análisis:**
 
-- Fomenta la representación de datos [5] (atributos) y la relación entre ellos.
+- Fomenta la representación de datos (atributos) y la relación entre ellos.
 - Enseña cómo modelar información antes de su manipulación programática.
 
 **Imagen del ejemplo:**
@@ -40,7 +40,7 @@ La **programación por bloques** es una metodología visual que facilita la comp
 
 1. **Del bloque al pseudocódigo:** Explicar el flujo del bloque y traducirlo a pseudocódigo paso a paso.
 2. **Validación:** Realizar pruebas de escritorio (simular), identificar casos límite y corregir errores lógicos.
-3. **Traspaso a lenguaje textual:** Tomar el algoritmo [2] depurado y convertirlo a C o Python manteniendo la lógica base.
+3. **Traspaso a lenguaje textual:** Tomar el algoritmo depurado y convertirlo a C o Python manteniendo la lógica base.
 
 ---
 
