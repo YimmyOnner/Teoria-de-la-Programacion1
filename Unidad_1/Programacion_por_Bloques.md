@@ -44,8 +44,8 @@ La **programación por bloques** es una metodología visual que facilita la comp
 
 ---
 
- <div align="left">
+<div align="center">
 
-[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-blue?style=for-the-badge)](../index.md)
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](../Contenidos.md)
 
 </div>
