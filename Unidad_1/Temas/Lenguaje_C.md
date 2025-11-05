@@ -253,6 +253,9 @@ int main() {
 | altura = 3 | 5 * 3 = 15           |                                  |
 
 ---
+Prueba en la terminal de Visual Studio Code:
+<img width="1026" height="248" alt="Captura de pantalla 2025-11-05 165345" src="https://github.com/user-attachments/assets/5a41b6f0-38f8-4fd0-8710-4018b2383cc8" />
+
 
 ## 🧩 Palabras reservadas
 
@@ -280,6 +283,7 @@ Permite escribir código eficiente, cercano al hardware y con gran control sobre
 Su aprendizaje brinda una base sólida para otros lenguajes como C++, Java o Python.
 
 ---
+
 
 <div align="center">
 
