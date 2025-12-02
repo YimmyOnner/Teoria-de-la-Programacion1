@@ -4,7 +4,7 @@
   de Teoría de la Programación, si quiere profundizar más, en los diferentes temas, ejercicios, contenidos, algoritmos
   realizados o tratados dentro de esta Unidad, puede hacerlo dirigiendose al indice de contenido. En este apartado encontrara toda
   la información desglozada, desde el primer tema visto en la asignatura, hasta el ultimo, tratado en clase. Todo con una muy
-  buena estructura [6], apta para la comprensión del lector. Ademas podra encontrar algunos temas no tratados en clase pero que tambien
+  buena estructura, apta para la comprensión del lector. Ademas podra encontrar algunos temas no tratados en clase pero que tambien
   nos ayudaron a comprender como se pueden construir los algoritmos dentro de los diferentes lenguajes de programacion
   como lo serian Java, Python y el que utilizados el Lenguaje C * 
   
