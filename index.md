@@ -35,14 +35,14 @@
 
 # <img src="https://img.icons8.com/fluency/48/laptop.png" width="30"/> Unidad 2
 
-<div align="center">
+
 
 <div align="center">
 
-[![📗 Portada de la Unidad 2](https://img.shields.io/badge/📗_Unidad_2-32CD32?style=for-the-badge)](./Unidad_2/Contenidos.md)
+[![📗 Visitar la Unidad 2](https://img.shields.io/badge/📗_Unidad_2-32CD32?style=for-the-badge)](./Unidad_2/Contenidos.md)
 
 </div>
-</div>
+<
 
 ---
 
