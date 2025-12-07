@@ -42,7 +42,7 @@
 [![📗 Visitar la Unidad 2](https://img.shields.io/badge/📗_Visitar_la_Unidad_2-32CD32?style=for-the-badge)](./Unidad_2/Contenidos.md)
 
 </div>
-<
+
 
 ---
 
