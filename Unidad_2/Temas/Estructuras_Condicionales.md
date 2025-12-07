@@ -23,10 +23,12 @@ De acuerdo con el libro *Introducción a la Programación* (2021), esta estructu
 - Activación de eventos o mensajes específicos.
 
 ### 📌 Sintaxis  
-
-if (condición) {  
-  // instrucciones  
+*/
+if (condición) {
+    // instrucciones a ejecutar si la condición es verdadera
 }
+/*
+
 
 ---
 
