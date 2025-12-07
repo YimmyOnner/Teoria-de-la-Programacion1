@@ -70,6 +70,7 @@ En esta unidad se utilizan **diagramas de flujo** y **pseudocódigo** como herra
 [![Presentación 2](https://img.shields.io/badge/📊_Presentación_2-green?style=for-the-badge)](https://docs.google.com/presentation/d/1hSu4IkZSEYfC2jJt_BdgbTCQpYsDU632/edit?slide=id.g3819e268914_0_87#slide=id.g3819e268914_0_87)  
 
 </div>
+
 ---
 
 ✳️ > *Esta unidad representa un avance significativo en el proceso formativo, pues fortalece el pensamiento lógico, la capacidad de abstracción y la habilidad para diseñar soluciones programables aplicables a distintos problemas del mundo real.*
