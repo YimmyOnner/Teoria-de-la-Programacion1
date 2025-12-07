@@ -1,4 +1,4 @@
-# 📖 Contenidos de la Unidad 1
+# 📖 Contenidos de la Unidad 2
 
 * En este documento se presenta un análisis detallado y estructurado de los contenidos estudiados durante las semanas de la **Unidad 2** de la asignatura *Teoría de la Programación*. Esta unidad constituye un pilar fundamental dentro del proceso formativo del estudiante, ya que introduce y profundiza en las **estructuras de control**, las cuales permiten que un programa evolucione de una simple secuencia lineal de instrucciones hacia un sistema capaz de tomar decisiones, repetir acciones y adaptarse a contextos variados.
 
@@ -64,9 +64,10 @@ En esta unidad se utilizan **diagramas de flujo** y **pseudocódigo** como herra
 ---
 
 📽️ **Recursos Relacionados con la Unidad**  
+<div align="center">
 [![Presentación 1](https://img.shields.io/badge/🎞️_Presentación_1-blue?style=for-the-badge)](https://docs.google.com/presentation/d/1PJtj-QP09sitaL9VlCQ8HcQAZgNU4ady/edit?slide=id.g3819e268914_0_87#slide=id.g3819e268914_0_87)  
 [![Presentación 2](https://img.shields.io/badge/📊_Presentación_2-green?style=for-the-badge)](https://docs.google.com/presentation/d/1hSu4IkZSEYfC2jJt_BdgbTCQpYsDU632/edit?slide=id.g3819e268914_0_87#slide=id.g3819e268914_0_87)  
-
+</div>
 ---
 
 ✳️ > *Esta unidad representa un avance significativo en el proceso formativo, pues fortalece el pensamiento lógico, la capacidad de abstracción y la habilidad para diseñar soluciones programables aplicables a distintos problemas del mundo real.*
