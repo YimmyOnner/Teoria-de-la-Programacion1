@@ -37,7 +37,11 @@
 
 <div align="center">
 
-### Contenido no Disponible: Vuelva al final de la Unidad 2
+<div align="center">
+
+[![📗 Portada de la Unidad 2](https://img.shields.io/badge/📗_Unidad_2-32CD32?style=for-the-badge)](./Unidad_2/Contenidos.md)
+
+</div>
 </div>
 
 ---
