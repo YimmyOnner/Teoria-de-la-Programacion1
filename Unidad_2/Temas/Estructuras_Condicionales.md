@@ -24,9 +24,11 @@ De acuerdo con el libro *Introducción a la Programación* (2021), esta estructu
 
 ### 📌 Sintaxis  
 */
+
 if (condición) {
     // instrucciones a ejecutar si la condición es verdadera
 }
+
 /*
 
 
