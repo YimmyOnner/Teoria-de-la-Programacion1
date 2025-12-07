@@ -1,127 +1,176 @@
 # 🧩 Estructuras Condicionales en C  
 
-Las estructuras condicionales representan uno de los fundamentos esenciales de la programación estructurada. Su objetivo principal es permitir que un programa pueda **tomar decisiones** basadas en la evaluación de una condición lógica. Esto permite modificar el flujo natural de ejecución y seleccionar qué instrucciones deben ejecutarse según el contexto, lo cual es indispensable en cualquier sistema interactivo o proceso que requiera validación.
+Las estructuras condicionales son uno de los pilares fundamentales de la programación estructurada. Permiten que un programa sea capaz de **analizar situaciones**, **evaluar condiciones lógicas** y **tomar decisiones** que alteren el flujo de ejecución. Gracias a ellas, un algoritmo deja de ser un conjunto rígido y lineal de instrucciones, para convertirse en un sistema flexible capaz de responder dinámicamente según las entradas del usuario o el estado interno del programa.
 
-Autores como Martínez y Pineda (UNAM, 2025) resaltan que las estructuras condicionales son el punto en el cual un programa deja de ser completamente lineal para convertirse en un sistema capaz de reaccionar ante situaciones específicas. De igual forma, recursos contemporáneos como GeeksforGeeks, W3Schools o Newtum explican que estas estructuras permiten implementar desde simples validaciones de datos hasta sistemas complejos de toma de decisiones.
+En palabras de *Martínez y Pineda (UNAM, 2025)*, estas estructuras “representan el momento en el que un programa adquiere la capacidad de reaccionar ante distintas posibilidades”, permitiendo implementar desde validaciones simples hasta procesos complejos basados en reglas. A su vez, plataformas como GeeksforGeeks, W3Schools y Newtum destacan que las estructuras condicionales son indispensables en áreas como el procesamiento de datos, la interacción con el usuario, los sistemas de control y prácticamente cualquier aplicación real.
 
-A continuación, se presentan las estructuras condicionales más utilizadas en el lenguaje C: **if**, **if–else**, **if anidado** y **switch**, acompañadas de sus definiciones, usos más comunes y sintaxis general.
+En C, las estructuras condicionales más utilizadas son:  
+- **if**  
+- **if–else**  
+- **if anidado (else if)**  
+- **switch**  
+
+Cada una responde a necesidades específicas y ofrece ventajas según el tipo de decisión que se necesita implementar. A continuación, se presenta una descripción ampliada de cada una, junto con sus usos, características y sintaxis.
 
 ---
 
 ## 📘 1. La estructura `if`
 
-### 📌 Definición  
-La sentencia `if` es la forma más básica de decisión en C. Permite ejecutar un bloque de código únicamente si una condición resulta verdadera. Si la condición es falsa, el programa ignora dicho bloque y continúa con la siguiente instrucción.
+### 💡 Definición  
+El `if` es la estructura condicional más básica y fundamental del lenguaje C. Permite evaluar una condición lógica y, en caso de que sea verdadera, ejecutar un bloque de instrucciones. Si la condición se evalúa como falsa, el bloque simplemente se omite.
 
-De acuerdo con el libro *Introducción a la Programación* (2021), esta estructura corresponde al modelo fundamental de toma de decisiones:  
-**“Si ocurre algo, entonces ejecuta una acción”**.
+De acuerdo con el libro *Introducción a la Programación* (2021), esta sentencia sigue el principio lógico universal:
 
-### 📌 Usos típicos  
-- Validación de valores ingresados por el usuario.  
-- Verificación de rangos o restricciones.  
-- Control de procesos lineales que requieren una sola condición.  
-- Activación de eventos o mensajes específicos.
+> **“Si la condición se cumple, entonces ejecuta un conjunto de acciones.”**
 
-### 📌 Sintaxis  
-*/
+Esto permite que un programa responda únicamente cuando realmente es necesario, evitando operaciones innecesarias y controlando el flujo con precisión.
 
+### 🛠 Usos comunes  
+El `if` suele utilizarse cuando se requiere verificar una condición puntual, tal como:
+- Validar valores ingresados por el usuario (edad, calificaciones, contraseñas, etc.).  
+- Comprobar si un valor se encuentra dentro de un rango permitido.  
+- Determinar si una variable cumple con un requisito específico.  
+- Activar mensajes, cálculos o funciones bajo una única condición.
+
+### 🧱 Sintaxis  
+
+```c
 if (condición) {
-    // instrucciones a ejecutar si la condición es verdadera
+    // instrucciones si la condición es verdadera
 }
+```
 
-/*
-
+### 📌 Notas adicionales  
+- Solo ejecuta código cuando la condición es verdadera.  
+- Es la estructura más utilizada en algoritmos sencillos.  
+- Suele representar la primera forma de toma de decisiones en la programación.
 
 ---
 
 ## 📘 2. La estructura `if–else`
 
-### 📌 Definición  
-El `if–else` extiende la funcionalidad del `if` permitiendo elegir entre dos bloques de instrucciones. Si la condición se cumple, se ejecuta el primer bloque; si no, se ejecuta el segundo.
+### 💡 Definición  
+La estructura `if–else` permite establecer **dos caminos alternativos** en un programa. Cuando la condición del `if` se cumple, se ejecuta un bloque de instrucciones; si no, se ejecuta un segundo bloque definido por `else`.
 
-La UNAM (2025) señala que esta estructura garantiza que el programa siempre ejecutará **una de las dos alternativas**, lo que es útil en situaciones donde siempre debe haber una respuesta.
+La UNAM (2025) resalta que esta estructura garantiza que el programa siempre produzca una respuesta ante la condición evaluada, lo cual resulta fundamental en procesos donde se requiere tomar decisiones excluyentes.
 
-### 📌 Usos típicos  
-- Aprobación o reprobación de notas.  
-- Clasificaciones binarias (mayor-menor, positivo-negativo).  
-- Validación estricta de acceso.  
-- Confirmaciones lógicas.
+### 🛠 Usos comunes  
+Se utiliza especialmente en situaciones con dos alternativas posibles:
+- Aprobación o reprobación según una nota mínima.  
+- Validación de acceso (correcto / incorrecto).  
+- Detección de valores positivos o negativos.  
+- Verificación de estados lógicos binarios.
 
-### 📌 Sintaxis  
+### 🧱 Sintaxis  
 
-if (condición) {  
-  // instrucciones si verdadera  
-} else {  
-  // instrucciones si falsa  
+```c
+if (condición) {
+    // instrucciones si verdadera
+} else {
+    // instrucciones si falsa
 }
+```
+
+### 📌 Ventajas  
+- Permite manejar tanto el caso verdadero como el falso.  
+- Reduce la ambigüedad en la ejecución del programa.  
+- Hace posible implementar sistemas binarios de decisión.
 
 ---
 
-## 📘 3. If anidado
+## 📘 3. If anidado (múltiples decisiones)
 
-### 📌 Definición  
-El if anidado consiste en colocar una estructura if dentro de otra. Este tipo de estructura es ideal cuando se necesita evaluar múltiples condiciones en secuencia.
+### 💡 Definición  
+El **if anidado**, también llamado *cadena de if–else if*, permite evaluar múltiples condiciones en secuencia, ejecutando distintos bloques según el valor de la expresión evaluada. Esto resulta útil en situaciones donde existen varias posibilidades mutuamente excluyentes o jerarquías de decisiones.
 
-Según Martínez & Pineda, este mecanismo permite implementar decisiones “en capas”, útiles para clasificaciones de varios niveles y árboles lógicos más complejos.
+El uso de estructuras anidadas es común en árboles de decisión, clasificaciones por niveles, selección de opciones o validaciones progresivas.
 
-### 📌 Usos típicos  
-- Evaluación de rangos (bajo, medio, alto).  
-- Selección entre múltiples opciones basadas en valores numéricos.  
-- Validaciones que requieren varias etapas consecutivas.  
-- Construcción de menús interactivos.
+### 🛠 Usos comunes  
+- Clasificar notas (A, B, C, D, F).  
+- Determinar rangos de valores.  
+- Menús interactivos con varias opciones numéricas.  
+- Validaciones que requieren filtros sucesivos.
 
-### 📌 Sintaxis  
+### 🧱 Sintaxis  
 
-if (condición1) {  
-  // bloque 1  
-} else if (condición2) {  
-  // bloque 2  
-} else if (condición3) {  
-  // bloque 3  
-} else {  
-  // alternativa final  
+```c
+if (condición1) {
+    // bloque 1
+} else if (condición2) {
+    // bloque 2
+} else if (condición3) {
+    // bloque 3
+} else {
+    // bloque alternativo final
 }
+```
+
+### 📌 Consideraciones  
+- Aumenta la capacidad de decisión del programa.  
+- Demasiadas condiciones anidadas pueden complicar la lectura del código.  
+- En casos con muchas comparaciones directas, se prefiere usar `switch`.
 
 ---
 
 ## 📘 4. Estructura múltiple `switch`
 
-### 📌 Definición  
-El `switch` es una estructura condicional múltiple que permite seleccionar entre varias alternativas en función del valor específico de una variable o expresión. Sitios como JDoodle y GeeksforGeeks destacan que su sintaxis es más limpia y legible que una secuencia extensa de if–else cuando se comparan valores iguales.
+### 💡 Definición  
+El `switch` es una estructura condicional diseñada para manejar **múltiples alternativas**, evaluando el valor de una variable o expresión y seleccionando un bloque de código asociado a cada caso. Es especialmente útil cuando se deben comparar valores exactos (enteros o caracteres) y se desea evitar una secuencia extensa de `else if`.
 
-### 📌 Usos típicos  
-- Menús interactivos numéricos.  
-- Selección de operaciones (suma, resta, multiplicación).  
-- Conversión de valores (días, meses, niveles).  
-- Procesos donde cada caso es independiente.
+Recursos como JDoodle y GeeksforGeeks destacan que el `switch` permite escribir código más limpio, ordenado y legible cuando se trabaja con menús o estructuras de selección directa.
 
-### 📌 Sintaxis  
+### 🛠 Usos comunes  
+- Menús interactivos de selección.  
+- Sistemas de control basados en números (1, 2, 3...).  
+- Conversión de valores:  
+  - número → día de la semana  
+  - letra → opción específica  
+- Procesos independientes según el valor de la variable.
 
-switch (variable) {  
- case valor1:  
-  // instrucciones  
-  break;  
+### 🧱 Sintaxis  
 
- case valor2:  
-  // instrucciones  
-  break;  
+```c
+switch (variable) {
+    case valor1:
+        // instrucciones
+        break;
 
- default:  
-  // instrucciones si ningún caso coincide  
-  break;  
+    case valor2:
+        // instrucciones
+        break;
+
+    case valor3:
+        // instrucciones
+        break;
+
+    default:
+        // instrucciones si no coincide ningún caso
+        break;
 }
+```
+
+### 📌 Ventajas  
+- Código más legible para decisiones múltiples.  
+- Elimina largos bloques de if–else.  
+- Facilita la implementación de menús y opciones fijas.
 
 ---
 
 ## 🧠 Importancia General de las Estructuras Condicionales  
 
-- Permiten **modificar el flujo** del programa.  
-- Hacen el algoritmo más **flexible** y adaptable.  
-- Representan la base de la **toma de decisiones lógica**.  
-- Facilitan la creación de sistemas interactivos y dinámicos.  
-- Son indispensables en validaciones, filtrados y clasificación de datos.
+Las estructuras condicionales son indispensables en cualquier programa porque permiten:
+
+- **Modificar el flujo** según circunstancias específicas.  
+- Responder a la interacción del usuario.  
+- Implementar reglas lógicas complejas.  
+- Automatizar procesos de decisión.  
+- Generar resultados diferentes según los datos ingresados.  
+- Construir sistemas funcionales, escalables y realistas.
+
+Sin estructuras condicionales, un programa sería completamente lineal y no tendría la capacidad de responder a distintas situaciones, lo que lo haría inútil para la mayoría de las aplicaciones reales.
 
 ---
 
-📝 *Aquí puedes agregar tus ejemplos en C para cada estructura condicional.*  
+📝 *Aquí puedes agregar tus ejemplos, ejercicios o diagramas de flujo correspondientes.*
+
 
