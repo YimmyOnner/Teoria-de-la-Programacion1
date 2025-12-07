@@ -65,8 +65,10 @@ En esta unidad se utilizan **diagramas de flujo** y **pseudocódigo** como herra
 
 📽️ **Recursos Relacionados con la Unidad**  
 <div align="center">
+ 
 [![Presentación 1](https://img.shields.io/badge/🎞️_Presentación_1-blue?style=for-the-badge)](https://docs.google.com/presentation/d/1PJtj-QP09sitaL9VlCQ8HcQAZgNU4ady/edit?slide=id.g3819e268914_0_87#slide=id.g3819e268914_0_87)  
 [![Presentación 2](https://img.shields.io/badge/📊_Presentación_2-green?style=for-the-badge)](https://docs.google.com/presentation/d/1hSu4IkZSEYfC2jJt_BdgbTCQpYsDU632/edit?slide=id.g3819e268914_0_87#slide=id.g3819e268914_0_87)  
+
 </div>
 ---
 
