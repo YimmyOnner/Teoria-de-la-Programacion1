@@ -1,11 +1,5 @@
 # 📘 Unidad 2 – Contenidos
 
-<div align="center">
-
-[![📗 Portada de la Unidad 2](https://img.shields.io/badge/📗_Unidad_2-32CD32?style=for-the-badge)](#)
-
-</div>
-
 ---
 
 ## 📘 Introducción a la Unidad 2
