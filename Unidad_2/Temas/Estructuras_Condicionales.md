@@ -60,7 +60,23 @@ El programa pide la edad de una persona y muestra:
 
 ### Codificación en C:
 
-<img width="377" height="286" alt="imagen" src="https://github.com/user-attachments/assets/f5869006-2b38-4d61-bfbf-27ab071e1a83" />
+```c
+#include <stdio.h>
+
+int main() {
+    int edad;
+    printf("Ingrese su edad: \n");
+    scanf("%d", &edad);
+    getchar();
+
+    if (edad >= 18) {
+        printf("\nEs mayor de edad\n");
+    }
+
+    return 0;
+}
+
+```
 
 Este programa lo que hace, es pedir al usuario que ingrese su edad y si la condicion que esta dentro del if se cumple, muestra un mensaje en la pantalla, el cual es "Es mayor de Edad", caso contrario, sigue con el resto del algoritmo, en esta ocasion, no hay un sino, en este ejercicio.
 
