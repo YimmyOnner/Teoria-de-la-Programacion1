@@ -46,6 +46,36 @@ while (condición) {
 - Si la condición nunca cambia, puede provocar un **bucle infinito**.  
 - Es una opción flexible para condiciones complejas.  
 
+## Ejemplo del Uso del Bucle While
+
+#### Realizar un programa que presente los 10 primeros numero naturales, en orden ascendente de (1-10).
+
+## Diagrama de Flujo
+
+<img width="727" height="626" alt="Captura de pantalla 2025-12-07 203737" src="https://github.com/user-attachments/assets/889f627d-1e4e-4798-a4d8-1fa3c38978ab" />
+
+## Codificación en C:
+
+```c
+#include <stdio.h>
+int main()
+{
+    int i;
+    i = 1;
+    while (i <= 10)
+    {
+        printf("%i \n", i);
+        i++;
+    }
+} 
+```
+
+Este programa es muy simple, solo presenta por pantalla los 10 primeros numeros naturales, del 1 al 10, mediante el bucle repetitivo while, si la condicion se cumple, el bucle se sigue repitiendo, pero si en algun momento es falsa, solo salta fuera del bucle a continuar con el algoritmo, que en este caso, es el final del codigo.
+
+## Prueba de Escritorio:
+
+<img width="474" height="235" alt="Captura de pantalla 2025-12-07 203145" src="https://github.com/user-attachments/assets/c4254925-fbbf-4138-a320-9e94f6f5fe55" />
+
 ---
 
 # 📘 2. Estructura `for`
@@ -84,6 +114,33 @@ for (inicialización; condición; actualización) {
 - Evita errores de actualización del contador, ya que lo incluye en su sintaxis.  
 - Es más eficiente al recorrer estructuras de datos.
 
+## Ejemplo de Uso del Bucle Repetitivo For:
+
+#### Realizar un programa que presente los 10 primeros numero naturales, en orden ascendente de (1-10).
+
+## Diagrama de Flujo:
+
+<img width="535" height="536" alt="Captura de pantalla 2025-12-07 203821" src="https://github.com/user-attachments/assets/b361ecb1-89fa-4520-b7fa-1744cb4c8e93" />
+
+## Codificación en C:
+
+```c
+#include <stdio.h>
+int main()
+{
+    int i;
+    for (i = 1; i <= 10; i++)
+    {
+        printf("%i \n", i);
+    }
+}
+```
+Este programa es muy simple, solo presenta por pantalla los 10 primeros numeros naturales, del 1 al 10, mediante el bucle repetitivo for, pero tiene una pequeña, gran diferencia, con la estructura while, la cual es, que tanto la inicializacion, la condicion y el incremento, se encuentran ubicados en la misma linea, lo que ayuda un montón, a la estructura del algoritmo. Ademas, el codigo funciona de la misma manera que en el bucle while.
+
+## Prueba de Escritorio:
+
+<img width="474" height="235" alt="Captura de pantalla 2025-12-07 203145" src="https://github.com/user-attachments/assets/4be4e8a6-bf48-4619-b906-cad5a2cbb68a" />
+
 ---
 
 # 📘 3. Estructura `do–while`
@@ -118,6 +175,34 @@ do {
 - Puede provocar bucles infinitos si no se controla adecuadamente.  
 - Representa un bucle de condición **final**, no inicial.
 
+## Ejemplo de Uso del Bucle Repetitivo Do-While:
+
+#### Realizar un programa que presente los 10 primeros numero naturales, en orden ascendente de (1-10).
+
+## Diagrama de Flujo:
+
+<img width="682" height="658" alt="Captura de pantalla 2025-12-07 203755" src="https://github.com/user-attachments/assets/26e1a953-bdd1-4d60-b1aa-10ea90f65609" />
+
+## Codificación en C:
+```c
+#include <stdio.h>
+int main()
+{
+    int i;
+    i = 1;
+    do
+    {
+        printf("%i \n", i);
+        i++;
+    } while (i <= 10);
+}
+```
+Este programa es muy simple, solo presenta por pantalla los 10 primeros numeros naturales, del 1 al 10, mediante el bucle repetitivo do-while, siendo ua variante, muy utilizada del while, debido a que su sintaxis, obliga al programa a ejecutarse, por lo menos una vez, siendo muy aplicada, al momento de realizar calculos de notas o de diferentes ejercicios que necesiten un bucle repetitivo.
+
+## Prueba de Escritorio:
+
+<img width="474" height="235" alt="Captura de pantalla 2025-12-07 203145" src="https://github.com/user-attachments/assets/4be4e8a6-bf48-4619-b906-cad5a2cbb68a" />
+
 ---
 
 # 🧠 Comparación general de los tres bucles
@@ -145,5 +230,4 @@ Sin los bucles, los programas serían extremadamente largos, rígidos e incapace
 
 ---
 
-📝 *Aquí puedes agregar tus diagramas de flujo, ejercicios en C o ejemplos de aplicación.*
 
