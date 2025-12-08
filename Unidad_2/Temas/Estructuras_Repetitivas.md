@@ -229,5 +229,15 @@ Las estructuras repetitivas permiten:
 Sin los bucles, los programas serían extremadamente largos, rígidos e incapaces de manejar tareas repetidas de manera eficiente.
 
 ---
+<div align="center">
 
+[![📊 Ejercicio Combinado en Java](https://img.shields.io/badge/📊Ejercicio_Combinado_en_Java_-blue?style=for-the-badge)](./Ejercicio_Combinado.md)
+
+</div> 
+
+<div align="center">
+
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](../Contenidos.md)
+
+</div>
 
