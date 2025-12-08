@@ -92,5 +92,16 @@ public class deber {
 
 ---
 
+<div align="center">
+
+[![📊 Dificultades de la Unidad 2](https://img.shields.io/badge/📊Dificultades_de_la_Unidad_2_-green?style=for-the-badge)](./Dificultades_Unidad2.md)
+
+</div> 
+
+<div align="center">
+
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](../Contenidos.md)
+
+</div>
 
 
