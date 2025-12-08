@@ -29,7 +29,7 @@
 
 📂 **Tema** | 🧾 **Descripción del Contenido**  | 
 --- | ---  
-🧩 [🚀 Estructuras Condicionales](./Estructuras_Condicionales.md)  | Introducción a las decisiones simples, dobles y múltiples, con ejemplos y diagramas de flujo. 
+🧩 [🚀 Estructuras Condicionales](./Temas/Estructuras_Condicionales.md)  | Introducción a las decisiones simples, dobles y múltiples, con ejemplos y diagramas de flujo. 
 🔁 **Estructuras Repetitivas** | Estudio de los ciclos “mientras”, “repetir” y “para”, con ejercicios prácticos en C.  
 🔄 **Ejercicio Combinado – Java** | Desarrollo de un algoritmo completo integrando decisiones y repeticiones bajo un enfoque práctico.  
 ⚠️ **Dificultades** | Identificación de los principales retos conceptuales en la comprensión y aplicación de las estructuras de control.  
