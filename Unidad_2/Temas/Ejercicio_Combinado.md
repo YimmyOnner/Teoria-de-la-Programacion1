@@ -100,7 +100,7 @@ public class deber {
 
 <div align="center">
 
-[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](../Contenidos.md)
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-red?style=for-the-badge)](../Contenidos.md)
 
 </div>
 
