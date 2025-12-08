@@ -88,7 +88,7 @@ public class deber {
 ```
 ## Pruebas de Escritorio:
 
-
+<img width="497" height="370" alt="Captura de pantalla 2025-12-07 212337" src="https://github.com/user-attachments/assets/82ac6b21-b078-49de-91f6-6e42364faacc" />
 
 ---
 
