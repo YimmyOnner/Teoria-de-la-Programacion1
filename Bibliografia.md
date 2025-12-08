@@ -20,7 +20,17 @@ Referencias en Formato IEEE
 
 [9]	B. W. Kernighan y D. M. Ritchie, The C Programming Language, 2nd ed., Prentice Hall, 1988.
 
+[10] P. Martínez, Introducción a la programación. Universidad Veracruzana, 2021. Disponible en: https://www.uv.mx/personal/pmartinez/files/2021/03/Libro-completo-Introduccion-a-la-programacion.pdf
 
+[11] Universidad Nacional Autónoma de México (UNAM), Introducción a la programación. Facultad de Ingeniería, 2025. Disponible en: https://docencia.tic.unam.mx/wordpress/wp-content/uploads/2025/03/Introduccion-a-la-programacion.pdf
+
+[12] GeeksforGeeks, “Difference between for, while and do-while loop in programming.” Disponible en: https://www.geeksforgeeks.org/dsa/difference-between-for-while-and-do-while-loop-in-programming/
+
+[13] W3Schools, “C Do While Loop.” Disponible en: https://www.w3schools.com/c/c_do_while_loop.php
+
+[14] JDoodle, “Control structures and loops in C.” Disponible en: https://www.jdoodle.com/tutorials/c/c-beginner/c-control-structures-loops
+
+[15] Newtum Blog, “Loop in C – Types, Syntax and Examples.” Disponible en: https://blog.newtum.com/loop-in-c/
 
 <div align="left">
 
