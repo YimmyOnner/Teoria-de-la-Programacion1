@@ -22,8 +22,8 @@ En conclusión, la Unidad 2 amplió mi visión del pensamiento computacional y m
 
 <div align="left">
 
-[📑 Tareas Entregadas](./Tareas_Entregadas.md)| Registro y organización de trabajos realizados en AA y APE.  
+[![📑 Tareas Entregadas](https://img.shields.io/badge/⬅️_Tareas_Entregadas-red?style=for-the-badge)](./Tareas_Entregadas.md)  
 
-[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-blue?style=for-the-badge)](./Contenidos.md)
+[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-purple?style=for-the-badge)](./Contenidos.md)
 
 </div>
