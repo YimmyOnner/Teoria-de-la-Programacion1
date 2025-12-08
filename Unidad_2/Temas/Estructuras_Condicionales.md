@@ -187,10 +187,10 @@ if (condición1) {
 ### Ejemplo de Uso de la Estructura If-Anidada:
 
 El programa pide la edad de una persona y muestra: 
-0–11 → “Muchacho”
-12–17 → “Adolescente”
-18–59 → “Adulto”
-60 o más → “Adulto mayor"
+* 0–11 → “Muchacho”
+* 12–17 → “Adolescente”
+* 18–59 → “Adulto”
+* 60 o más → “Adulto mayor"
 
 ### Diagrama de Flujo:
 
@@ -277,10 +277,10 @@ switch (variable) {
 ### Ejemplo de Uso de la Estructura Switch:
 
 El programa pide la edad de una persona y muestra: 
-0–11 → “Muchacho”
-12–17 → “Adolescente”
-18–59 → “Adulto”
-60 o más → “Adulto mayor"
+* 0–11 → “Muchacho”
+* 12–17 → “Adolescente”
+* 18–59 → “Adulto”
+* 60 o más → “Adulto mayor"
 
 ### Diagrama de Flujo:
 
