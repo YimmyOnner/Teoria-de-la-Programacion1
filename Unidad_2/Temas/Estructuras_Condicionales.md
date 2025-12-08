@@ -39,6 +39,14 @@ if (condición) {
     // instrucciones si la condición es verdadera
 }
 ```
+### Ejemplo De Uso del If:
+
+El programa pide la edad de una persona y muestra:
+
+* 0–11 → “Niño”
+* 12–17 → “Adolescente”
+* 18–59 → “Adulto”
+* 60 o más → “Adulto mayor”
 
 ### 📌 Notas adicionales  
 - Solo ejecuta código cuando la condición es verdadera.  
@@ -170,7 +178,5 @@ Las estructuras condicionales son indispensables en cualquier programa porque pe
 Sin estructuras condicionales, un programa sería completamente lineal y no tendría la capacidad de responder a distintas situaciones, lo que lo haría inútil para la mayoría de las aplicaciones reales.
 
 ---
-
-📝 *Aquí puedes agregar tus ejemplos, ejercicios o diagramas de flujo correspondientes.*
 
 
