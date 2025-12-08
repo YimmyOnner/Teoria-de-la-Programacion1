@@ -5,7 +5,7 @@ Cada carpeta contiene actividades evaluadas, ejercicios prácticos y trabajos de
 
 ---
 
-## 🗂️ Carpeta 1 – Aprendizaje Autonomo AA  
+## 🗂️ Carpeta 1 – Aprendizaje Practico Experimental APE  
 📌 Esta carpeta incluye ejercicios, actividades guiadas y tareas prácticas relacionadas con los temas fundamentales de la Unidad 2, como estructuras condicionales y estructuras repetitivas en C.
 
 🔗 **Acceder a la carpeta:**  
@@ -13,7 +13,7 @@ https://drive.google.com/drive/folders/1oHoP0X-QgYHBdov_PeNkg3B9JAITbU6a?usp=sha
 
 ---
 
-## 🗂️ Carpeta 2 – Aprendizaje Practico Experimental APE 
+## 🗂️ Carpeta 2 – Aprendizaje Autonomo AA
 📌 En esta carpeta se encuentran actividades complementarias, ejercicios adicionales y evidencias de aprendizaje orientadas al refuerzo de la lógica algorítmica.  
 Incluye material desarrollado para mejorar la comprensión del control de flujo, la construcción de decisiones múltiples y la implementación de ciclos iterativos.
 
