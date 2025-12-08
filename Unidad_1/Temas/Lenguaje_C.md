@@ -293,7 +293,7 @@ Su aprendizaje brinda una base sólida para otros lenguajes como C++, Java o Pyt
 
 <div align="center">
 
-[![📊 Reflexion Unidad 1](https://img.shields.io/badge/📊Reflexion_Unidad_1_-green?style=for-the-badge)](../Reflexion.md)
+[![📊 Reflexion Unidad 1](https://img.shields.io/badge/📊Reflexion_Unidad_1_-green?style=for-the-badge)](./Reflexion.md)
 
 </div> 
 
