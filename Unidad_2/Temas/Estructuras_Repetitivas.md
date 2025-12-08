@@ -231,13 +231,13 @@ Sin los bucles, los programas serían extremadamente largos, rígidos e incapace
 ---
 <div align="center">
 
-[![📊 Ejercicio Combinado en Java](https://img.shields.io/badge/📊Ejercicio_Combinado_en_Java_-blue?style=for-the-badge)](./Ejercicio_Combinado.md)
+[![📊 Ejercicio Combinado en Java](https://img.shields.io/badge/📊Ejercicio_Combinado_en_Java_-green?style=for-the-badge)](./Ejercicio_Combinado.md)
 
 </div> 
 
 <div align="center">
 
-[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](../Contenidos.md)
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-red?style=for-the-badge)](../Contenidos.md)
 
 </div>
 
