@@ -49,10 +49,7 @@ if (condición) {
 
 El programa pide la edad de una persona y muestra:
 
-* 0–11 → “Niño”
-* 12–17 → “Adolescente”
-* 18–59 → “Adulto”
-* 60 o más → “Adulto mayor”
+* edad >= 18 → “Mayor de Edad"
 
 ### Diagrama de Flujo Del Ejercicio:
 
@@ -119,10 +116,8 @@ if (condición) {
 
 El programa pide la edad de una persona y muestra:
 
-* 0–11 → “Niño”
-* 12–17 → “Adolescente”
-* 18–59 → “Adulto”
-* 60 o más → “Adulto mayor”
+* edad >= 18 → “Mayor de Edad”
+* edad < 18 → “Menor de Edad”
 
 ### Diagrama de Flujo:
 
@@ -188,6 +183,52 @@ if (condición1) {
 - Aumenta la capacidad de decisión del programa.  
 - Demasiadas condiciones anidadas pueden complicar la lectura del código.  
 - En casos con muchas comparaciones directas, se prefiere usar `switch`.
+
+### Ejemplo de Uso de la Estructura If-Anidada:
+
+El programa pide la edad de una persona y muestra: 
+0–11 → “Muchacho”
+12–17 → “Adolescente”
+18–59 → “Adulto”
+60 o más → “Adulto mayor"
+
+### Diagrama de Flujo:
+
+<img width="816" height="612" alt="imagen" src="https://github.com/user-attachments/assets/60c09d43-6fab-4988-9297-7c19cbbceb68" />
+
+### Codificación en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int edad;
+    printf("Ingrese su edad: ");
+    scanf("%d", &edad);
+
+    if (edad <= 11) {
+        printf("Muchacho\n");
+    } else {
+        if (edad <= 17) {
+            printf("Adolescente\n");
+        } else {
+            if (edad <= 59) {
+                printf("Adulto\n");
+            } else {
+                printf("Adulto mayor\n");
+            }
+        }
+    }
+
+    return 0;
+}
+
+```
+Para este algoritmo, se utilizo la estructura condicional, If-Anidada, y gracias a una lista de condiciones se pudo, realizar este algoritmo que funciona de la siguiente manera: primero el usuario ingresa su edad, y despues esa misma edad, almacenada en una variable, es evaluada en las diferentes condiciones que se encuentran en el codigo, si se cumple la primera comdición, muestra la palabra "Muchacho", caso contrario, pasa a la siguiente condición y si se cumple, muestra ek mensaje "Adolescente", caso contrario, pasa a la otra condición y si se cumple muestra la palabra "Adulto", y por ultimo si no se cumple esa condición, el programa solo muestra el mensaje "Adulto mayor".
+
+### Prueba de Escritorio: 
+
+<img width="453" height="237" alt="imagen" src="https://github.com/user-attachments/assets/71993a4e-b259-4115-92d8-50f1aeeb17ee" />
 
 ---
 
