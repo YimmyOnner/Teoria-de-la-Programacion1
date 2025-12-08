@@ -34,7 +34,7 @@
 [🔄 Ejercicio Combinado Java](./Temas/Ejercicio_Combinado.md) | Desarrollo de un algoritmo completo integrando decisiones y repeticiones bajo un enfoque práctico.  
 [⚠️ Dificultades Unidad 2](./Temas/Dificultades_Unidad2.md)  | Identificación de los principales retos conceptuales en la comprensión y aplicación de las estructuras de control.  
 [🧠 Reflexion Critica](./Reflexon.md)  | Valoración personal de los aprendizajes adquiridos, sus aplicaciones y áreas de mejora.  
-[📑 Tareas Entregadas](./Tareas_Entregadas.md)| Registro y organización de trabajos realizados en ACD, AA y APE.  
+[📑 Tareas Entregadas](./Tareas_Entregadas.md)| Registro y organización de trabajos realizados en AA y APE.  
 
 ---
 
