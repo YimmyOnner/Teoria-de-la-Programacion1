@@ -39,6 +39,12 @@ if (condición) {
     // instrucciones si la condición es verdadera
 }
 ```
+
+### 📌 Notas adicionales  
+- Solo ejecuta código cuando la condición es verdadera.  
+- Es la estructura más utilizada en algoritmos sencillos.  
+- Suele representar la primera forma de toma de decisiones en la programación.
+
 ### Ejemplo De Uso del If:
 
 El programa pide la edad de una persona y muestra:
@@ -48,10 +54,19 @@ El programa pide la edad de una persona y muestra:
 * 18–59 → “Adulto”
 * 60 o más → “Adulto mayor”
 
-### 📌 Notas adicionales  
-- Solo ejecuta código cuando la condición es verdadera.  
-- Es la estructura más utilizada en algoritmos sencillos.  
-- Suele representar la primera forma de toma de decisiones en la programación.
+### Diagrama de Flujo Del Ejercicio:
+
+<img width="631" height="607" alt="Captura de pantalla 2025-12-07 191816" src="https://github.com/user-attachments/assets/d4bb0e75-ad71-4f52-b104-7e29f97afc96" />
+
+### Codificación en C:
+
+<img width="377" height="286" alt="imagen" src="https://github.com/user-attachments/assets/f5869006-2b38-4d61-bfbf-27ab071e1a83" />
+
+Este programa lo que hace, es pedir al usuario que ingrese su edad y si la condicion que esta dentro del if se cumple, muestra un mensaje en la pantalla, el cual es "Es mayor de Edad", caso contrario, sigue con el resto del algoritmo, en esta ocasion, no hay un sino, en este ejercicio.
+
+### Pruebas de Escritorio: 
+
+<img width="532" height="179" alt="Captura de pantalla 2025-12-07 193113" src="https://github.com/user-attachments/assets/d1720deb-b390-4c13-a758-1e8199356de5" />
 
 ---
 
