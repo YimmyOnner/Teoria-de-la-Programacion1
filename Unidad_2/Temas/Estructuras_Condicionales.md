@@ -224,7 +224,7 @@ int main() {
 }
 
 ```
-Para este algoritmo, se utilizo la estructura condicional, If-Anidada, y gracias a una lista de condiciones se pudo, realizar este algoritmo que funciona de la siguiente manera: primero el usuario ingresa su edad, y despues esa misma edad, almacenada en una variable, es evaluada en las diferentes condiciones que se encuentran en el codigo, si se cumple la primera comdición, muestra la palabra "Muchacho", caso contrario, pasa a la siguiente condición y si se cumple, muestra ek mensaje "Adolescente", caso contrario, pasa a la otra condición y si se cumple muestra la palabra "Adulto", y por ultimo si no se cumple esa condición, el programa solo muestra el mensaje "Adulto mayor".
+Para este algoritmo, se utilizo la estructura condicional, If-Anidada, y gracias a una lista de condiciones se pudo, realizar este algoritmo que funciona de la siguiente manera: primero el usuario ingresa su edad, y despues esa misma edad, almacenada en una variable, es evaluada en las diferentes condiciones que se encuentran en el codigo, si se cumple la primera comdición, muestra la palabra "Muchacho", caso contrario, pasa a la siguiente condición y si se cumple, muestra el mensaje "Adolescente", caso contrario, pasa a la otra condición y si se cumple muestra la palabra "Adulto", y por ultimo si no se cumple esa condición, el programa solo muestra el mensaje "Adulto mayor".
 
 ### Prueba de Escritorio: 
 
@@ -273,6 +273,51 @@ switch (variable) {
 - Código más legible para decisiones múltiples.  
 - Elimina largos bloques de if–else.  
 - Facilita la implementación de menús y opciones fijas.
+
+### Ejemplo de Uso de la Estructura Switch:
+
+El programa pide la edad de una persona y muestra: 
+0–11 → “Muchacho”
+12–17 → “Adolescente”
+18–59 → “Adulto”
+60 o más → “Adulto mayor"
+
+### Diagrama de Flujo:
+
+<img width="1248" height="581" alt="imagen" src="https://github.com/user-attachments/assets/cf827841-1b4b-4131-84f9-6abd9407768c" />
+
+### Codificación en C:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int edad;
+    printf("Ingrese su edad: ");
+    scanf("%d", &edad);
+
+    switch (edad) {
+        case 0 ... 11:
+            printf("Muchacho\n");
+            break;
+        case 12 ... 17:
+            printf("Adolescente\n");
+            break;
+        case 18 ... 59:
+            printf("Adulto\n");
+            break;
+        default:
+            printf("Adulto mayor\n");
+    }
+
+    return 0;
+}
+```
+Este Programa funciona igual que el anterior, solo que la diferencia es que, se utilizó la estructura condicional Switch, en donde si la edad se encuentra dentro del rango de valores que se establecio en cada caso, muestra su mensaje correspondiente, y un extra que añade esta estructura, es que muestra un mensaje default, es decir, ese mensaje solo se muestra si no se cumplieron, todos los casos posibles para las edades ingresadas, siendo una buena alternativa para realizar este algoritmo.
+
+### Prueba de Escritorio:
+
+<img width="530" height="254" alt="Captura de pantalla 2025-12-07 200857" src="https://github.com/user-attachments/assets/e35419fd-6e4b-4487-b41e-349c2636a476" />
 
 ---
 
