@@ -39,10 +39,54 @@ El sistema debe:
 
 ## Diagrama de Flujo:
 
+<img width="749" height="623" alt="imagen" src="https://github.com/user-attachments/assets/23f42b87-0f10-42fe-9ab1-04f3befef84f" />
 
 ## Codificación en C:
 
+```java
+import java.util.Scanner;
 
+public class deber {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int i, vehi, aut;
+        int cantidad1 = 0, cantidad2 = 0, cantidad3 = 0;
+
+        System.out.println("Ingrese el numero de vehiculos que van a ingresar");
+        vehi = sc.nextInt();
+
+        for (i = 1; i <= vehi; i++) {
+            System.out.println("\n============ VEHICULO " + i + " ============");
+            System.out.println("Ingrese el tipo de vehiculo " + i + " (1 = moto, 2 = auto, 3 = camion)");
+            aut = sc.nextInt();
+
+            switch (aut) {
+                case 1:
+                    cantidad1++;
+                    break;
+                case 2:
+                    cantidad2++;
+                    break;
+                case 3:
+                    cantidad3++;
+                    break;
+                default:
+                    System.out.println("Tipo de Vehiculo Invalido");
+                    break;
+            }
+        }
+
+        System.out.println("\nLa cantidad de vehiculos ingresados es: " + vehi);
+        System.out.println("La cantidad de motos ingresadas es: " + cantidad1);
+        System.out.println("La cantidad de autos ingresados es: " + cantidad2);
+        System.out.println("La cantidad de camiones ingresados es: " + cantidad3);
+
+        sc.close();
+    }
+}
+```
 ## Pruebas de Escritorio:
 
 
