@@ -31,7 +31,6 @@ El sistema debe:
 
 ## 📌 Pasos para completar el ejercicio
 
-🟦 **Aquí puedes agregar:**
 - Diseñar el diagrama de flujo simplificado    
 - Elaborar el programa en Java / Python, con el apoyo del IDE Visual Studio Code  
 - Las pruebas de escritorio  
@@ -41,7 +40,7 @@ El sistema debe:
 
 <img width="749" height="623" alt="imagen" src="https://github.com/user-attachments/assets/23f42b87-0f10-42fe-9ab1-04f3befef84f" />
 
-## Codificación en C:
+## Codificación en Java:
 
 ```java
 import java.util.Scanner;
