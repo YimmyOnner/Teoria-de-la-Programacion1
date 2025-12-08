@@ -55,5 +55,15 @@ La integración de condicionales dentro de ciclos repetitivos representó uno de
 Para fortalecer esta competencia, trabajé con ejercicios que requerían explícitamente la combinación de ciclos y condicionales, como contadores categóricos, registros repetitivos y validaciones múltiples. Además, realicé pruebas de escritorio exhaustivas para rastrear el flujo completo del programa y entender el comportamiento de las variables en cada iteración. Esta práctica constante me permitió dominar la interacción entre ambas estructuras y mejorar mi capacidad de análisis algorítmico.
 
 ---
+<div align="center">
 
+[![📊 Reflexion Critica](https://img.shields.io/badge/📊Reflexion_Critica_-green?style=for-the-badge)](../Reflexion.md)
+
+</div> 
+
+<div align="center">
+
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](../Contenidos.md)
+
+</div>
 
