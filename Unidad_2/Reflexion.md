@@ -20,6 +20,6 @@ En conclusión, la Unidad 2 amplió mi visión del pensamiento computacional y m
 
 <div align="left">
 
-[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-blue?style=for-the-badge)](./index.md)
+[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-blue?style=for-the-badge)](../index.md)
 
 </div>
