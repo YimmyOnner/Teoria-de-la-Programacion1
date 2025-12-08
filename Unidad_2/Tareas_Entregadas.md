@@ -24,3 +24,8 @@ https://drive.google.com/drive/folders/1JCOQUFwhAWoIJo-9c4gUeeBE-Hr63rVl?usp=sha
 
 > 📝 *Ambos enlaces forman parte del conjunto oficial de tareas entregadas durante la Unidad 2 y sirven como evidencia de progreso académico.*
 
+<div align="left">
+
+[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-purple?style=for-the-badge)](./Contenidos.md)
+
+</div>
