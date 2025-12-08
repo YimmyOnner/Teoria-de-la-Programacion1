@@ -337,13 +337,13 @@ Sin estructuras condicionales, un programa sería completamente lineal y no tend
 ---
 <div align="center">
 
-[![📊 Estructuras Repetitivas](https://img.shields.io/badge/📊Caracteristicas_y_elementos_de_un_algoritmo_-blue?style=for-the-badge)](./Temas/Estructuras_Repetitivas.md)
+[![📊 Estructuras Repetitivas](https://img.shields.io/badge/📊Caracteristicas_y_elementos_de_un_algoritmo_-blue?style=for-the-badge)](./Estructuras_Repetitivas.md)
 
 </div> 
 
 <div align="center">
 
-[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](./Contenidos.md)
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](../Contenidos.md)
 
 </div>
 
