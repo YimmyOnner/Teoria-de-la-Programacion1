@@ -115,6 +115,46 @@ if (condición) {
 - Reduce la ambigüedad en la ejecución del programa.  
 - Hace posible implementar sistemas binarios de decisión.
 
+### Ejemplo de Uso del If-Else:
+
+El programa pide la edad de una persona y muestra:
+
+* 0–11 → “Niño”
+* 12–17 → “Adolescente”
+* 18–59 → “Adulto”
+* 60 o más → “Adulto mayor”
+
+### Diagrama de Flujo:
+
+<img width="706" height="608" alt="Captura de pantalla 2025-12-07 191842" src="https://github.com/user-attachments/assets/f8e8ae95-c73f-493c-a7f2-a30f670fe94b" />
+
+### Codificación en C: 
+
+```c
+#include <stdio.h>
+
+int main() {
+    int edad;
+    printf("Ingrese su edad: \n");
+    scanf("%d", &edad);
+
+    if (edad >= 18) {
+        printf("\n Mayor de edad \n");
+    } else {
+        printf("\n Menor de edad \n");
+    }
+
+    return 0;
+}
+
+```
+Este programa es el mismo que el anterior, pero adaptado a la estructura condicional If-Else, en esta ocasión, el programa, pide al usuario ingresar su edad, luego el programa lee esa edad, y la almacena en una variable de nombre edad, seguidamente, entra a la condición y evalua, si es verdadero, presenta el mensaje, "Es Mayor de Edad" , caso contrario, presenta el mensaje "Es Menor de Edad".
+
+
+### Pruebas de Escritorio
+
+<img width="532" height="143" alt="imagen" src="https://github.com/user-attachments/assets/cb274ee3-e8d0-487f-b68d-d2f0ef1aff9e" />
+
 ---
 
 ## 📘 3. If anidado (múltiples decisiones)
