@@ -18,7 +18,11 @@ En conclusión, la Unidad 2 amplió mi visión del pensamiento computacional y m
 
 > “Controlar el flujo de un programa es comprender, en profundidad, cómo piensa una máquina. Es el primer paso hacia la construcción de software inteligente, preciso y verdaderamente funcional.”
 
+
+
 <div align="left">
+
+[📑 Tareas Entregadas](./Tareas_Entregadas.md)| Registro y organización de trabajos realizados en AA y APE.  
 
 [![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-blue?style=for-the-badge)](./Contenidos.md)
 
