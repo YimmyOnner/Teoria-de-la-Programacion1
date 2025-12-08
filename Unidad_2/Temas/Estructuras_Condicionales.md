@@ -335,5 +335,15 @@ Las estructuras condicionales son indispensables en cualquier programa porque pe
 Sin estructuras condicionales, un programa sería completamente lineal y no tendría la capacidad de responder a distintas situaciones, lo que lo haría inútil para la mayoría de las aplicaciones reales.
 
 ---
+<div align="center">
 
+[![📊 Estructuras Repetitivas](https://img.shields.io/badge/📊Caracteristicas_y_elementos_de_un_algoritmo_-blue?style=for-the-badge)](./Temas/Estructuras_Repetitivas.md)
+
+</div> 
+
+<div align="center">
+
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-blue?style=for-the-badge)](./Contenidos.md)
+
+</div>
 
