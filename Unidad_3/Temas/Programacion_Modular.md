@@ -186,7 +186,7 @@ Finalmente, al regresar a la función `main`, se muestra en pantalla la temperat
 
 <div align="center">
 
-[![📊 Estructuras Repetitivas](https://img.shields.io/badge/📊Estructuras_Repetitivas_en_C_-green?style=for-the-badge)](./Arreglos.md)
+[![📊 Programación Modular](https://img.shields.io/badge/📊Programación_Modular_en_C-green?style=for-the-badge)](./Arreglos.md)
 
 </div> 
 
