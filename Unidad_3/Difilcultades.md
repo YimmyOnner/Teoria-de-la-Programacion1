@@ -29,4 +29,9 @@
 **Solución:** Se mejoró el control de entrada usando mensajes claros en `printf()` y verificando que cada `scanf()` correspondiera a la posición correcta del arreglo.
 
 ---
+ <div align="left">
+
+[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-blue?style=for-the-badge)](./contenidos.md)
+
+</div>
 
