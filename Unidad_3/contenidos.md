@@ -59,6 +59,17 @@ El **manejo de archivos**, especialmente en formato CSV, introduce al estudiante
 - Procesamiento de información estructurada.
 - Desarrollo de programas escalables y mantenibles.
 
+---
+📽️ **Recursos Relacionados con la Unidad**  
+<div align="center">
+ 
+[![Presentación 1](https://img.shields.io/badge/🎞️_Presentación_1-blue?style=for-the-badge)](https://docs.google.com/presentation/d/1J3bjnUf4rQ9uHTHsxN8w-l2Qq-wgEPOx/edit?slide=id.g3923217aa9a_0_254#slide=id.g3923217aa9a_0_254)  
+[![Presentación 2](https://img.shields.io/badge/📊_Presentación_2-green?style=for-the-badge)](https://docs.google.com/presentation/d/1Wt4S0QsdMArakW5aEETM-miYEC47J8Kg/edit?slide=id.g3819e9a3ea9_3_363#slide=id.g3819e9a3ea9_3_363)  
+
+</div>
+
+
+---
 💬 *La Unidad 3 consolida el paso del pensamiento algorítmico básico hacia el diseño de programas estructurados, eficientes y aplicables a situaciones reales.*
 
 ---
