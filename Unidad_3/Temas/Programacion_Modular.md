@@ -140,6 +140,11 @@ int main() {
     return 0;
 }
 ```
+Este ejercicio ejemplifica el **paso de parámetros por valor** en la programación modular. La función recibe una **copia del valor original** de la variable, por lo que cualquier modificación realizada dentro de la función no afecta al dato almacenado en la función principal.
+
+En el programa, la temperatura inicial es enviada a la función únicamente para realizar un **cálculo teórico**, devolviendo un nuevo valor ajustado sin alterar la temperatura original. Al finalizar la ejecución, se comprueba que la variable inicial mantiene su valor, lo que confirma que el paso por valor es adecuado para simulaciones, validaciones y cálculos temporales donde no se requiere modificar los datos originales.
+
+---
 ## 🔁 Paso de Parámetro por Referencia
 
 ### 📖 Explicación
@@ -168,6 +173,17 @@ int main() {
 
     return 0;
 }
+```
+Este ejercicio demuestra el uso del **paso de parámetros por referencia** en la programación modular utilizando el lenguaje C. Su objetivo principal es mostrar cómo una función puede **modificar directamente el valor de una variable definida en la función principal**, a través del envío de su dirección de memoria.
+
+El programa inicia declarando una variable denominada `temperaturaSistema`, la cual almacena un valor inicial que representa la temperatura registrada por el sistema. Posteriormente, esta variable es enviada a la función `ajustarTemperatura`, no como un valor común, sino como una **dirección de memoria**, utilizando el operador `&`.
+
+Dentro de la función, el parámetro recibido es un **puntero**, lo que permite acceder directamente al contenido de la variable original mediante el operador de indirección (`*`). Al incrementar el valor apuntado por el puntero, el cambio se refleja inmediatamente en la variable `temperaturaSistema`, ya que ambas hacen referencia al mismo espacio en memoria.
+
+Finalmente, al regresar a la función `main`, se muestra en pantalla la temperatura ajustada, comprobando que el valor original fue efectivamente modificado. Este comportamiento confirma el funcionamiento correcto del paso por referencia y evidencia su utilidad en situaciones donde se requiere actualizar datos reales del sistema.
+
+Este tipo de estructura es ampliamente utilizada en aplicaciones donde se manejan configuraciones, estados del sistema o grandes volúmenes de datos, ya que permite una comunicación eficiente entre módulos y un uso óptimo de los recursos de memoria.
+---
 
 
 
