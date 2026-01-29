@@ -20,3 +20,8 @@
 
 10. En conjunto, el estudio de las estructuras secuenciales, condicionales y repetitivas, junto con los arreglos y la programación modular, fortalece el pensamiento lógico y estructurado del programador. Estos conocimientos constituyen una base sólida para enfrentar problemas más complejos en el futuro, ya que permiten diseñar soluciones eficientes, comprensibles y confiables, fundamentales para el desarrollo de aplicaciones reales en distintos ámbitos.
 
+<div align="left">
+
+[![⬅️ Volver al Inicio](https://img.shields.io/badge/⬅️_Volver_al_Inicio-blue?style=for-the-badge)](../index.md)
+
+</div>
