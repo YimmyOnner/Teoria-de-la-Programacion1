@@ -89,7 +89,7 @@ int sumar(int a, int b) {
     return suma;
 }
 
----
+```
 ## 🔬 Ejemplo de Programación Modular  
 ### Paso de Parámetros por Valor y por Referencia
 
@@ -139,5 +139,35 @@ int main() {
 
     return 0;
 }
+```
+## 🔁 Paso de Parámetro por Referencia
+
+### 📖 Explicación
+
+En el paso por referencia se envía la **dirección de memoria** de la variable, permitiendo que la función modifique directamente el valor original. En el lenguaje C, este mecanismo se implementa mediante el uso de **punteros**, los cuales permiten acceder y manipular directamente los datos almacenados en memoria.
+
+Este tipo de paso resulta especialmente útil cuando se requiere que una función actualice valores que deben conservarse después de su ejecución, optimizando además el uso de memoria al evitar copias innecesarias de datos.
+
+---
+
+### 📄 Código en C
+
+```c
+#include <stdio.h>
+
+void ajustarTemperatura(float *temperatura) {
+    *temperatura = *temperatura + 5.0;
+}
+
+int main() {
+    float temperaturaSistema = 25.0;
+
+    ajustarTemperatura(&temperaturaSistema);
+
+    printf("Temperatura ajustada: %.2f\n", temperaturaSistema);
+
+    return 0;
+}
+
 
 
