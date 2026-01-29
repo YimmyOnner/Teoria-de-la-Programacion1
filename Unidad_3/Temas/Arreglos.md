@@ -260,5 +260,16 @@ Mediante tres ciclos anidados, se ingresan las temperaturas y luego se recorren 
 Este tipo de estructura se aplica en sistemas más complejos, como estadísticas, simulaciones o registros históricos.
 
 ---
+<div align="center">
 
+[![📊 Programación Modular](https://img.shields.io/badge/📊Difilcutades_Principales-green?style=for-the-badge)](../Difilcultades.md)
+
+</div> 
+
+---
+<div align="center">
+
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-red?style=for-the-badge)](../contenidos.md)
+
+</div>
 
