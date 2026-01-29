@@ -184,5 +184,16 @@ Finalmente, al regresar a la función `main`, se muestra en pantalla la temperat
 
 ---
 
+<div align="center">
+
+[![📊 Estructuras Repetitivas](https://img.shields.io/badge/📊Estructuras_Repetitivas_en_C_-green?style=for-the-badge)](./Arreglos.md)
+
+</div> 
+
+<div align="center">
+
+[![🔙 Regresar a Contenidos](https://img.shields.io/badge/🔙_Regresar_a_Contenidos-red?style=for-the-badge)](../contenidos.md)
+
+</div>
 
 
