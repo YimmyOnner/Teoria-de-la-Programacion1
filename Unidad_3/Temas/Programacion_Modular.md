@@ -1,68 +1,91 @@
 # 🧩 Programación Modular
 
-La **programación modular** es una técnica de diseño de software que consiste en dividir un programa complejo en **partes más pequeñas y autónomas** llamadas *módulos*. Cada módulo contiene un conjunto de instrucciones que realizan una tarea específica, lo que facilita la comprensión, el mantenimiento, la reutilización y la verificación independiente del código. :contentReference[oaicite:1]{index=1}
+La **programación modular** es una metodología de diseño que permite organizar un programa dividiéndolo en partes más pequeñas y manejables denominadas *módulos*. Cada módulo representa una unidad lógica del sistema, encargada de resolver una tarea específica dentro del problema general. Este enfoque es fundamental en la programación estructurada, ya que reduce la complejidad, mejora la claridad del código y facilita su mantenimiento y reutilización.
 
-Este enfoque surge históricamente con la necesidad de gestionar programas cada vez más grandes y complejos, donde el desarrollo secuencial clásico puede generar código difícil de depurar, extender o comprender. A finales de los años sesenta y comienzos de los setenta se inició la práctica de descomponer programas en módulos para mejorar la organización y reducir la complejidad general. :contentReference[oaicite:2]{index=2}
-
----
-
-## 🎯 Definición
-
-La programación modular es el proceso de diseñar un programa como un conjunto de **módulos independientes** que se integran para formar una solución completa. Cada módulo puede ser probado, depurado y entendido de forma aislada, reduciendo la complejidad cognitiva del sistema global. :contentReference[oaicite:3]{index=3}
-
-En el lenguaje C, la modularidad se implementa principalmente mediante **funciones**, las cuales encapsulan lógica específica que puede ser reutilizada en diferentes partes del programa. :contentReference[oaicite:4]{index=4}
+A medida que los programas crecen en tamaño y funcionalidad, se vuelve imprescindible adoptar estrategias que permitan controlar dicha complejidad. La programación modular responde a esta necesidad al promover la separación de responsabilidades, evitando que todo el código se concentre en un único bloque difícil de entender y depurar.
 
 ---
 
-## 🧠 Ventajas de la Programación Modular
+## 🎯 Concepto de Programación Modular
 
-La programación modular ofrece múltiples beneficios académicos y prácticos:
+La programación modular consiste en **descomponer un problema grande en subproblemas más pequeños**, los cuales pueden resolverse de manera independiente. Cada uno de estos subproblemas se implementa como un módulo, y la integración de todos ellos permite obtener la solución completa.
 
-- **Claridad y legibilidad:** El código modular es más fácil de leer y entender, pues cada módulo realiza una función específica. :contentReference[oaicite:5]{index=5}  
-- **Mantenibilidad:** Los cambios en el programa se pueden realizar en módulos aislados sin afectar la totalidad del sistema. :contentReference[oaicite:6]{index=6}  
-- **Reutilización de código:** Un módulo bien diseñado puede ser reutilizado en múltiples programas o contextos. :contentReference[oaicite:7]{index=7}  
-- **Depuración independiente:** Permite probar y corregir cada módulo por separado, mejorando la calidad general del producto. :contentReference[oaicite:8]{index=8}  
-- **Trabajo colaborativo:** Facilita la asignación de diferentes módulos a distintos integrantes de un equipo de desarrollo. :contentReference[oaicite:9]{index=9}
+Desde un punto de vista académico, este enfoque fomenta el pensamiento analítico y estructurado, ya que obliga al programador a identificar claramente las tareas que debe realizar el programa y a definir cómo se relacionan entre sí.
+
+En el lenguaje C, la modularidad se implementa principalmente mediante **funciones**, las cuales encapsulan instrucciones específicas que pueden ser invocadas desde distintas partes del programa.
 
 ---
 
-## 📐 Conceptos Fundamentales
+## 🧠 Importancia de la Modularidad
 
-### 📌 Módulo
+La programación modular es esencial porque:
 
-Un módulo es una unidad funcional del programa que ejecuta una tarea específica. En C, un módulo se puede representar mediante una **función**, la cual recibe parámetros de entrada y puede retornar valores al módulo que lo invoca. :contentReference[oaicite:10]{index=10}
+- Permite **comprender mejor el programa**, al dividirlo en secciones lógicas.
+- Facilita la **detección y corrección de errores**, ya que cada módulo puede probarse por separado.
+- Promueve la **reutilización de código**, evitando duplicar instrucciones.
+- Mejora la **organización del software**, haciendo el código más legible y ordenado.
+- Favorece el **trabajo colaborativo**, permitiendo que diferentes personas desarrollen distintos módulos.
 
----
-
-### 📌 Función
-
-Una **función** es un bloque de código que realiza un conjunto de instrucciones definido bajo un nombre. La función puede ser llamada desde cualquier parte del programa principal (o desde otros módulos), transmitiéndole valores conocidos como **argumentos**. :contentReference[oaicite:11]{index=11}
-
-Cada función en C se compone de:
-
-- **Prototipo o declaración:** Indica el tipo de valor que la función devolverá y los tipos de sus parámetros.
-- **Definición o cuerpo de la función:** Contiene las instrucciones que componen el módulo.
-- **Llamada a la función:** Invoca la ejecución del módulo desde otra parte del programa. :contentReference[oaicite:12]{index=12}
+Este enfoque es ampliamente utilizado tanto en el ámbito académico como en el desarrollo profesional de software.
 
 ---
 
-## 🛠 Estructura en C
+## 📦 Concepto de Módulo
 
-En C, todo programa contiene al menos la función `main()`, la cual actúa como punto de entrada del programa. Además, los programas modulares contienen otras funciones definidas por el programador:
+Un **módulo** es una unidad funcional del programa que realiza una tarea bien definida. En C, un módulo suele representarse mediante una función, aunque también puede incluir archivos separados (`.h` y `.c`) en proyectos de mayor escala.
+
+Cada módulo debe cumplir con las siguientes características:
+
+- Tener una **responsabilidad única**.
+- Poseer **entradas claramente definidas** (parámetros).
+- Producir una **salida específica** (valor de retorno o efecto controlado).
+- Ser **independiente** del resto del programa, en la medida de lo posible.
+
+---
+
+## 🔧 Funciones como Base de la Programación Modular
+
+Una **función** es un bloque de código que encapsula un conjunto de instrucciones bajo un nombre específico. Las funciones permiten dividir el programa en partes reutilizables y estructuradas.
+
+Una función en C puede:
+
+- Recibir **parámetros** (datos de entrada).
+- Ejecutar un conjunto de instrucciones.
+- Retornar un **valor** al programa que la invocó (opcional).
+
+---
+
+## 🛠 Estructura General de un Programa Modular en C
+
+Un programa modular en C se compone de:
+
+1. **Prototipos de funciones**
+2. **Función principal `main()`**
+3. **Definición de las funciones**
+
+### 📌 Ejemplo de estructura general
 
 ```c
-// Prototipo de función
-tipo_de_retorno nombreFuncion(tipo parametro1, tipo parametro2);
+#include <stdio.h>
 
-// Función principal
+// Prototipo de la función
+int sumar(int a, int b);
+
 int main() {
-    // Código principal
-    nombreFuncion(valor1, valor2); // Llamada a función
+    int resultado;
+
+    // Llamada a la función
+    resultado = sumar(5, 3);
+
+    printf("El resultado es: %d", resultado);
+
     return 0;
 }
 
 // Definición de la función
-tipo_de_retorno nombreFuncion(tipo parametro1, tipo parametro2) {
-    // Código de la función
+int sumar(int a, int b) {
+    int suma;
+    suma = a + b;
+    return suma;
 }
 
