@@ -89,3 +89,55 @@ int sumar(int a, int b) {
     return suma;
 }
 
+---
+## 🔬 Ejemplo de Programación Modular  
+### Paso de Parámetros por Valor y por Referencia
+
+Para comprender de manera práctica la diferencia entre el **paso de parámetros por valor** y el **paso de parámetros por referencia**, se presenta a continuación un ejemplo aplicado a un contexto realista:  
+el **control y ajuste de la temperatura de un sistema**.
+
+---
+
+### 📌 Descripción del problema
+
+Un sistema registra una temperatura inicial.  
+Primero, se desea **calcular un ajuste teórico** de la temperatura (sin modificar el valor original).  
+Posteriormente, se requiere **ajustar realmente la temperatura del sistema**, modificando el valor almacenado en memoria.
+
+Este escenario permite observar claramente cuándo un valor se modifica solo de forma local y cuándo se altera directamente la variable original.
+
+---
+
+## 🧩 Función con paso de parámetro por valor
+
+### 📖 Explicación conceptual
+
+En el paso por valor, la función recibe **una copia del dato original**.  
+Cualquier modificación realizada dentro de la función **no afecta** a la variable original declarada en `main()`.
+
+---
+
+### 📄 Código en C
+
+```c
+#include <stdio.h>
+
+// Paso por valor
+float calcularAjuste(float temperatura) {
+    temperatura = temperatura + 5.0;
+    return temperatura;
+}
+
+int main() {
+    float temperaturaSistema = 25.0;
+    float temperaturaCalculada;
+
+    temperaturaCalculada = calcularAjuste(temperaturaSistema);
+
+    printf("Temperatura original del sistema: %.2f\n", temperaturaSistema);
+    printf("Temperatura calculada (ajuste teórico): %.2f\n", temperaturaCalculada);
+
+    return 0;
+}
+
+
