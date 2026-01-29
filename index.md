@@ -50,7 +50,8 @@
 
 <div align="center">
 
-### Contenido no Disponible: Vuelva al final de la Unidad 2
+[![📗 Visitar la Unidad 3](https://img.shields.io/badge/📗_Visitar_la_Unidad_2-32CD32?style=for-the-badge)](./Unidad_3/contenidos.md)
+
 </div>
 
 ---
@@ -58,7 +59,8 @@
 
 <div align="center">
 
-### Contenido no Disponible: No accesible vuelva al final del primer Ciclo
+[![📗 Comclusiones](https://img.shields.io/badge/📗Conclusiones-32CD32?style=for-the-badge)](./Conclusiones.md)
+
 </div>
 ---
 
