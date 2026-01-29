@@ -33,7 +33,6 @@
 --- | ---
 [🧩 Programación Modular](./Temas/Programacion_Modular.md) | Estudio de la descomposición de programas en funciones, su estructura, ventajas y aplicación práctica en C.
 [🧮 Arreglos](./Temas/Arreglos.md) | Análisis de arreglos unidimensionales, bidimensionales y tridimensionales para el manejo eficiente de datos.
-[💾 Manejo de Archivos CSV](./Temas/Manejo_Archivos_CSV.md) | Introducción a la creación, lectura y escritura de archivos `.csv` para el almacenamiento persistente de información.
 [⚠️ Dificultades Unidad 3](./Dificultades.md) | Identificación y análisis de las principales problemáticas surgidas durante el aprendizaje de la unidad.
 [🧠 Reflexión Crítica](./Reflexion_Critica.md) | Evaluación reflexiva del proceso de aprendizaje y su impacto en la formación como programador.
 [📑 Tareas Entregadas](./Tareas/Tareas_Entregadas.md) | Registro y organización de las actividades desarrolladas en AA, ACD y APE.
