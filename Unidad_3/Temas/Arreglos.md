@@ -44,7 +44,7 @@ Este tipo de arreglo es el más sencillo y el más utilizado, especialmente cuan
 ```c
 tipo_dato nombreArreglo[tamaño];
 ```
-# 🧪 Ejemplo Práctico: Registro de Calificaciones
+## 🧪 Ejemplo Práctico: Registro de Calificaciones
 
 ## 📖 Problema
 Un docente necesita registrar las calificaciones de 5 estudiantes en una evaluación.
@@ -73,7 +73,7 @@ int main() {
 
     return 0;
 }
-## Funcionamiento
+### ⚙ Funcionamiento ⚙
 El programa utiliza un arreglo unidimensional, también llamado vector, para almacenar una lista de valores del mismo tipo.
 Mediante una estructura repetitiva for, se solicita al usuario ingresar cada nota y se guarda en una posición específica del arreglo.
 Posteriormente, otro ciclo permite recorrer el arreglo para mostrar las calificaciones almacenadas.
@@ -114,7 +114,7 @@ Este tipo de estructura fortalece el uso de **ciclos anidados** y el pensamiento
 tipo_dato nombreArreglo[filas][columnas];
 ```
 
-# 🧪 Ejemplo Práctico: Registro de Calificaciones
+## 🧪 Ejemplo Práctico: Registro de Calificaciones
 
 ## 📖 Problema
 
@@ -152,7 +152,7 @@ int main() {
     return 0;
 }
 ```
-### Funcionamiento del codigo
+### ⚙ Funcionamiento ⚙
 El programa emplea un arreglo bidimensional, que funciona como una tabla de filas y columnas.
 Cada fila representa a un estudiante y cada columna corresponde a una materia.
 Mediante dos ciclos anidados, se ingresan los datos y posteriormente se recorren para su visualización.
@@ -198,7 +198,7 @@ Esto permite representar datos organizados por niveles o capas, fortaleciendo el
 ```c
 tipo_dato nombreArreglo[dimension1][dimension2][dimension3];
 ```
-# 🧪 Ejemplo Práctico: Registro de Calificaciones
+## 🧪 Ejemplo Práctico: Registro de Calificaciones
 
 ## 📖 Problema
 
@@ -242,17 +242,19 @@ int main() {
     return 0;
 }
 ```
-### Funcionamiento del Codigo
+### ⚙ Funcionamiento ⚙
 El programa utiliza un arreglo tridimensional, el cual permite manejar datos organizados en tres niveles.
 En este caso:
 
--Primer nivel: ciudades
+- Primer nivel: ciudades
 
--Segundo nivel: días
+- Segundo nivel: días
 
--Tercer nivel: horarios
+- Tercer nivel: horarios
 
 Mediante tres ciclos anidados, se ingresan las temperaturas y luego se recorren para mostrarlas.
 Este tipo de estructura se aplica en sistemas más complejos, como estadísticas, simulaciones o registros históricos.
 
 ---
+
+
