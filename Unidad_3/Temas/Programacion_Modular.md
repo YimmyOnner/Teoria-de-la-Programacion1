@@ -182,7 +182,6 @@ Dentro de la función, el parámetro recibido es un **puntero**, lo que permite 
 
 Finalmente, al regresar a la función `main`, se muestra en pantalla la temperatura ajustada, comprobando que el valor original fue efectivamente modificado. Este comportamiento confirma el funcionamiento correcto del paso por referencia y evidencia su utilidad en situaciones donde se requiere actualizar datos reales del sistema.
 
-Este tipo de estructura es ampliamente utilizada en aplicaciones donde se manejan configuraciones, estados del sistema o grandes volúmenes de datos, ya que permite una comunicación eficiente entre módulos y un uso óptimo de los recursos de memoria.
 ---
 
 
