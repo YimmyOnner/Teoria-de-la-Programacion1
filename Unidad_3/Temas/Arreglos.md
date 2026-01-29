@@ -53,6 +53,7 @@ El programa debe permitir ingresar cada nota, almacenarlas en un arreglo unidime
 ---
 
 Ejemplo
+```c
 #include <stdio.h>
 
 int main() {
@@ -73,6 +74,9 @@ int main() {
 
     return 0;
 }
+```
+---
+
 ### ⚙ Funcionamiento ⚙
 El programa utiliza un arreglo unidimensional, también llamado vector, para almacenar una lista de valores del mismo tipo.
 Mediante una estructura repetitiva for, se solicita al usuario ingresar cada nota y se guarda en una posición específica del arreglo.
