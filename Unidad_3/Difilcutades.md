@@ -1,4 +1,4 @@
-# ⚠️ Dificultades encontradas y soluciones
+# ⚠️ Principales dificultades Encontradas y soluciones
 
 ### 1️⃣ Confusión con los índices de los arreglos  
 **Dificultad:** Se presentaron errores al acceder a posiciones inexistentes del arreglo (por ejemplo, usar índices mayores al tamaño definido).  
