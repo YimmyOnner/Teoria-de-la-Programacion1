@@ -152,7 +152,7 @@ int main() {
     return 0;
 }
 ```
-#Funcionamiento
+### Funcionamiento del codigo
 El programa emplea un arreglo bidimensional, que funciona como una tabla de filas y columnas.
 Cada fila representa a un estudiante y cada columna corresponde a una materia.
 Mediante dos ciclos anidados, se ingresan los datos y posteriormente se recorren para su visualización.
@@ -198,6 +198,8 @@ Esto permite representar datos organizados por niveles o capas, fortaleciendo el
 ```c
 tipo_dato nombreArreglo[dimension1][dimension2][dimension3];
 ```
+# 🧪 Ejemplo Práctico: Registro de Calificaciones
+
 ## 📖 Problema
 
 Registrar las temperaturas de 2 ciudades durante 3 días, en 2 horarios distintos, utilizando un arreglo tridimensional en lenguaje C.
@@ -240,7 +242,7 @@ int main() {
     return 0;
 }
 ```
-#Funcionamiento del Codigo
+### Funcionamiento del Codigo
 El programa utiliza un arreglo tridimensional, el cual permite manejar datos organizados en tres niveles.
 En este caso:
 
