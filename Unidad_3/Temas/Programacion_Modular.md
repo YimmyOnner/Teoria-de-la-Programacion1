@@ -186,7 +186,7 @@ Finalmente, al regresar a la función `main`, se muestra en pantalla la temperat
 
 <div align="center">
 
-[![📊 Programación Modular](https://img.shields.io/badge/📊Programación_Modular_en_C-green?style=for-the-badge)](./Arreglos.md)
+[![📊 Programación Modular](https://img.shields.io/badge/📊Arreglos_en_C-green?style=for-the-badge)](./Arreglos.md)
 
 </div> 
 
